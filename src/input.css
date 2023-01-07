@@ -9,5 +9,8 @@
 
 html {
   font-family: "manrope", sans-serif;
+}
+
+body {
   background-color: hsl(218, 23%, 16%);
 }

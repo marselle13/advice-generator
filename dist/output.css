@@ -513,9 +513,79 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-grayish-Blue1 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(217 19% 38% / var(--tw-bg-opacity));
+.relative {
+  position: relative;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-\[26px\] {
+  margin-top: 26px;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-\[64px\] {
+  height: 64px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[64px\] {
+  width: 64px;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.rounded-\[15px\] {
+  border-radius: 15px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .bg-grayish-Blue2 {
@@ -523,21 +593,51 @@ video {
   background-color: hsl(217 19% 24% / var(--tw-bg-opacity));
 }
 
+.bg-neon-Green {
+  --tw-bg-opacity: 1;
+  background-color: hsl(150 100% 66% / var(--tw-bg-opacity));
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+
 .text-center {
   text-align: center;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.underline {
-  text-decoration-line: underline;
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-neon-Green {
+  --tw-text-opacity: 1;
+  color: hsl(150 100% 66% / var(--tw-text-opacity));
+}
+
+.text-light-Cyan {
+  --tw-text-opacity: 1;
+  color: hsl(193 38% 86% / var(--tw-text-opacity));
 }
 
 @font-face {
@@ -548,5 +648,48 @@ video {
 
 html {
   font-family: "manrope", sans-serif;
+}
+
+body {
   background-color: hsl(218, 23%, 16%);
+}
+
+@media (min-width: 768px) {
+  .md\:mt-\[40px\] {
+    margin-top: 40px;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:max-w-\[540px\] {
+    max-width: 540px;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .md\:pt-\[47px\] {
+    padding-top: 47px;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .md\:text-\[28px\] {
+    font-size: 28px;
+  }
+
+  .md\:leading-\[38px\] {
+    line-height: 38px;
+  }
 }
